@@ -3,7 +3,7 @@ header {
   --_animationDistance: 120px;
 
   --_surfaceColorStart: hsl(0 10% 5%);
-  --_surfaceColorEnd: hsl(0 50% 90% / 0.05);
+  --_surfaceColorEnd: hsl(0 50% 90% / 0.1);
   --_textColorStart: hsl(0 10% 90%);
   --_textColorEnd: hsl(0 10% 90%);
 
@@ -13,6 +13,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: var(--_headerWidth, auto);
+
+  border-radius: 100vw;
 
   color: var(--_textColorStart);
   background-color: var(--_surfaceColorStart);
@@ -42,6 +45,8 @@ header {
   }
 
   .logo {
+    /* The logo display by default will be block because the page cannot find --_logoDisplay property yet. */
+    display: var(--_logoDisplay, block);
     fill: currentColor; /* so logo can change color as well */
     height: 3rem;
   }
