@@ -7,6 +7,8 @@ header {
   --_textColorStart: hsl(0 10% 90%);
   --_textColorEnd: hsl(0 10% 90%);
 
+  --_logoAfterAnimation: none;
+
   padding: 1rem 3rem;
   margin-inline: auto;
   margin-block: 0rem;
@@ -78,7 +80,7 @@ header {
   0%,
   100% {
     --_headerWidth: fit-content;
-    --_logoDisplay: none;
+    --_logoDisplay: var(--_logoAfterAnimation);
   }
 
   100% {
