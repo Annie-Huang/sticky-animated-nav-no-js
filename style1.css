@@ -13,6 +13,8 @@ header {
   background-color: var(--clr-neutral-700);
   top: 0;
 
+  animation: stickyNav linear forwards;
+
   .logo {
     fill: currentColor;
     height: 3rem;
@@ -37,6 +39,12 @@ header {
       text-decoration-thickness: 0.07lh;
       text-underline-offset: 0.17lh;
     }
+  }
+}
+
+@keyframes stickyNav {
+  100% {
+    box-shadow: 0 0 0.75rem hsl(0 0% 0% / 0.3);
   }
 }
 
