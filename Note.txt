@@ -5,3 +5,6 @@ https://codepen.io/kevinpowell/pen/mdgMdNx
 https://github.com/Annie-Huang/sticky-animated-nav-no-js
 
 -------------------------------------------------------------------
+
+PS C:\react\sticky-animated-nav-no-js> npm run start1
+http://localhost:3000/index1.html
