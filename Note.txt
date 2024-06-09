@@ -1,0 +1,7 @@
+Animate nav on scroll - CSS-only & easy to customize (https://www.youtube.com/watch?v=Nd_tzuR7NzY)
+
+https://codepen.io/kevinpowell/pen/BaEdadY
+https://codepen.io/kevinpowell/pen/mdgMdNx
+https://github.com/Annie-Huang/sticky-animated-nav-no-js
+
+-------------------------------------------------------------------
