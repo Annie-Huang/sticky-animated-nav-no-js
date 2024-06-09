@@ -3,7 +3,7 @@ header {
   --_animationDistance: 120px;
 
   --_surfaceColorStart: hsl(0 10% 5%);
-  --_surfaceColorEnd: hsl(0 50% 90% / 0.2);
+  --_surfaceColorEnd: hsl(0 50% 90% / 0.05);
   --_textColorStart: hsl(0 10% 90%);
   --_textColorEnd: hsl(0 10% 90%);
 
@@ -26,6 +26,8 @@ header {
   animation: stickyNav linear forwards;
 
   @supports (animation-timeline: view()) {
+    backdrop-filter: blur(0.15rem); /* Give some glass morphism look */
+
     /* animation-timeline not supported in Safari and Firefox yet as in 09/06/2024 */
     animation-timeline: view();
     /* This is offset from bottom value. so 100vh means start when on landing and finish when you scroll pass 20vh if animation-range-end: 120vh; */
