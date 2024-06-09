@@ -17,6 +17,12 @@ header {
   /*animation: stickyNav 2s linear forwards;*/
   animation: stickyNav linear forwards;
 
+  /* animation-timeline not supported in Safari and Firefox yet as in 09/06/2024 */
+  animation-timeline: view();
+  /* This is offset from bottom value. so 100vh means start when on landing and finish when you scroll pass 20vh if animation-range-end: 120vh; */
+  animation-range-start: 100vh;
+  animation-range-end: 120vh;
+
   .logo {
     fill: currentColor;
     height: 3rem;
