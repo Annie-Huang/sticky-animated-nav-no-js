@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start1": "lite-server --startPath=index1.html"
+    "start1": "lite-server --startPath=index1.html",
+    "start2": "lite-server --startPath=index2.html"
   },
   "repository": {
     "type": "git",
