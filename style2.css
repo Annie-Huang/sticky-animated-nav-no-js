@@ -74,6 +74,13 @@ header {
 }
 
 @keyframes stickyNav {
+  /* We need the 0% because we don't want to see the logo  or the width shift when the animation is halfway. It should happens as soon as the animation starts */
+  0%,
+  100% {
+    --_headerWidth: fit-content;
+    --_logoDisplay: none;
+  }
+
   100% {
     top: 1rem; /* Enable the header to move down again when it pass certain scroll point */
     color: var(--_textColorEnd);
