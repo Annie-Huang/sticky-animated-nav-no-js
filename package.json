@@ -1,0 +1,20 @@
+{
+  "name": "sticky-animated-nav-no-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start1": "lite-server --startPath=index1.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Annie-Huang/sticky-animated-nav-no-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Annie-Huang/sticky-animated-nav-no-js/issues"
+  },
+  "homepage": "https://github.com/Annie-Huang/sticky-animated-nav-no-js#readme"
+}
