@@ -3,9 +3,9 @@ header {
   --_animationDistance: 120px;
 
   --_surfaceColorStart: hsl(0 10% 5%);
-  --_surfaceColorEnd: hsl(0 50% 100%);
+  --_surfaceColorEnd: hsl(0 50% 90% / 0.2);
   --_textColorStart: hsl(0 10% 90%);
-  --_textColorEnd: hsl(0 10% 10%);
+  --_textColorEnd: hsl(0 10% 90%);
 
   padding: 1rem 3rem;
   margin-inline: auto;

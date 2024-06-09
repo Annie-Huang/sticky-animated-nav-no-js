@@ -12,3 +12,4 @@ Change dark header to light header when you scroll down from 50vh to 50vh+120px 
 
 PS C:\react\sticky-animated-nav-no-js> npm run start2
 http://localhost:3000/index2.html
+When you first scroll down, the header move up to disappear first. And then move down to appear as sticky header.
