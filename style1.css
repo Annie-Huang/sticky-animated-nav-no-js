@@ -1,4 +1,7 @@
 header {
+  --_animationStartsAfter: 50vh;
+  --_animationDistance: 50px;
+
   padding: 1rem 3rem;
   margin-inline: auto;
   margin-block: 0rem;
@@ -24,8 +27,10 @@ header {
   animation-range-start: 100vh;
   animation-range-end: 120vh;
   */
-  animation-range-start: 150vh;
-  animation-range-end: 160vh;
+  animation-range-start: calc(100vh + var(--_animationStartsAfter));
+  animation-range-end: calc(
+    100vh + var(--_animationStartsAfter) + var(--_animationDistance)
+  );
 
   .logo {
     fill: currentColor; /* so logo can change color as well */
@@ -57,7 +62,7 @@ header {
 @keyframes stickyNav {
   100% {
     color: var(--clr-neutral-100);
-    background-color: var(--clr-neutral-900);
+    background-color: white;
     box-shadow: 0 0 0.75rem hsl(0 0% 0% / 0.3);
   }
 }
