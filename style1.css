@@ -6,7 +6,12 @@ header {
   align-items: center;
   justify-content: space-between;
 
-  color: var(--_textColorStart);
+  color: var(--clr-neutral-500);
+
+  position: sticky;
+  z-index: 1000;
+  background-color: var(--clr-neutral-700);
+  top: 0;
 
   .logo {
     fill: currentColor;
