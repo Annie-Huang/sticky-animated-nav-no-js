@@ -8,3 +8,4 @@ https://github.com/Annie-Huang/sticky-animated-nav-no-js
 
 PS C:\react\sticky-animated-nav-no-js> npm run start1
 http://localhost:3000/index1.html
+Change dark header to light header when you scroll down from 50vh to 50vh+120px mark and keep light header onwards.

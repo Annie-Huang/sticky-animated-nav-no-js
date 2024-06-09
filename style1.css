@@ -1,6 +1,11 @@
 header {
   --_animationStartsAfter: 50vh;
-  --_animationDistance: 50px;
+  --_animationDistance: 120px;
+
+  --_surfaceColorStart: hsl(0 10% 5%);
+  --_surfaceColorEnd: hsl(0 50% 100%);
+  --_textColorStart: hsl(0 10% 90%);
+  --_textColorEnd: hsl(0 10% 10%);
 
   padding: 1rem 3rem;
   margin-inline: auto;
@@ -9,8 +14,8 @@ header {
   align-items: center;
   justify-content: space-between;
 
-  color: var(--clr-neutral-900);
-  background-color: var(--clr-neutral-100);
+  color: var(--_textColorStart);
+  background-color: var(--_surfaceColorStart);
 
   position: sticky;
   z-index: 1000;
@@ -61,8 +66,8 @@ header {
 
 @keyframes stickyNav {
   100% {
-    color: var(--clr-neutral-100);
-    background-color: white;
+    color: var(--_textColorEnd);
+    background-color: var(--_surfaceColorEnd);
     box-shadow: 0 0 0.75rem hsl(0 0% 0% / 0.3);
   }
 }
