@@ -115,7 +115,7 @@ header {
     --clr-neutral-100: hsl(219, 15%, 5%);
   }
 
-  /* @media (prefers-color-scheme: dark) {
+  @media (prefers-color-scheme: dark) {
     :root {
       --clr-primary-300: hsl(219, 76%, 75%);
       --clr-primary-400: hsl(219, 76%, 50%);
@@ -143,7 +143,7 @@ header {
       --clr-neutral-700: hsl(219, 15%, 15%);
       --clr-neutral-900: hsl(219, 15%, 5%);
     }
-  } */
+  }
 
   *,
   *::before,
@@ -151,9 +151,9 @@ header {
     box-sizing: border-box;
   }
 
-  /* html {
+  html {
     color-scheme: dark;
-  } */
+  }
 
   body {
     margin: 0;
@@ -184,7 +184,7 @@ header {
     max-width: 25ch;
 
     > span {
-      color: var(--clr-primary-700);
+      color: var(--clr-primary-400);
     }
   }
 
@@ -221,7 +221,7 @@ header {
     padding-block: max(3rem, 10svh);
     text-align: center;
 
-    color: var(--clr-neutral-900);
+    color: var(--clr-neutral-100);
     margin-block-end: 5rem;
     background-color: var(--clr-neutral-500);
     background-position: center;
