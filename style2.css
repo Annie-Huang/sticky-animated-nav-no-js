@@ -19,7 +19,7 @@ header {
 
   position: sticky;
   z-index: 1000;
-  top: 0;
+  top: -5rem; /* so it can moved up first when you scroll */
 
   /* Put the 2s to see the effect of changing color */
   /*animation: stickyNav 2s linear forwards;*/
@@ -68,6 +68,7 @@ header {
 
 @keyframes stickyNav {
   100% {
+    top: 1rem; /* Enable the header to move down again when it pass certain scroll point */
     color: var(--_textColorEnd);
     background-color: var(--_surfaceColorEnd);
     box-shadow: 0 0 0.75rem hsl(0 0% 0% / 0.3);
